@@ -1,0 +1,26 @@
+:root {
+      --orange: #ff9500;
+      --activeOrange: #ffb860;
+      --lightOrange: #ffab40;
+}
+
+.button {
+      background-color: #333;
+      border: none;
+      color: white;
+      font-size: 22px;
+      padding: 20px;
+      cursor: pointer;
+}
+
+.button:nth-child(4n) {
+      background: var(--orange);
+}
+
+.button:nth-child(4n):hover {
+      background-color: var(--lightOrange);
+}
+
+.button:nth-child(4n):active {
+      background-color: var(--activeOrange);
+}
