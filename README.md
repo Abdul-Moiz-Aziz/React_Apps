@@ -1,4 +1,4 @@
-# Mini JavaScript Projects
+# React Apps
 
 This repository contains a number of react apps. Each project is simple and readable.
 
